@@ -7,6 +7,10 @@ public class TimeResponse {
 	private String currentTime;
 	private Integer invocationCount;
 
+	public TimeResponse() {
+		//Empty constructor
+	}
+
 	public TimeResponse(String currentTime, Integer invocationCount) {
 		this.currentTime = currentTime;
 		this.invocationCount = invocationCount;
